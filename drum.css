@@ -1,0 +1,88 @@
+#title{
+    color: rgb(196, 221, 236);
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Arvo" cursive;
+    text-shadow: 5px 2px #000;
+
+}
+
+.a{
+    background-image: url("images/tom1.png");
+}
+
+.s{
+    background-image: url("images/tom2.png");
+}
+
+.d{
+    background-image: url("images/tom3.png");
+}
+
+.f{
+    background-image: url("images/tom4.png");
+}
+
+.l{
+    background-image: url("images/snare.png");
+}
+
+.j{
+    background-image: url("images/crash.png");
+}
+
+.k{
+    background-image: url("images/kick.png");
+}
+
+.pressed{
+    box-shadow:  0 3px 4px 0 #DBEDF3;
+    opacity: 1;
+}
+
+body{
+    text-align: center;
+    /* background-color: rgb(7, 46, 83); */
+    background-image: url('images/concert.png');
+    /* background-attachment: fixed; */
+    /* position: relative; */
+    /* padding: auto; */
+    /* max-width: 5rem; */
+    /* background-position: 5rem; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.set{
+    text-align: center;
+    /* block-size: inline; */
+    margin: 5rem auto;
+}
+
+.drum{
+
+    outline: none;
+    border: 10px solid rgb(204, 217, 246);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    font-weight: 1000;
+    color: rgb(204, 217, 246);
+    text-shadow: 5px 2px #000;
+    border-radius: 20px;
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    margin: 15px;
+    background-color: #fff;
+}
+
+footer{
+    color: #dddadd ;
+    margin-top: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
